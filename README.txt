@@ -32,10 +32,6 @@ This plugin allows you to make a external REST API call and display data from ex
 
 You can change the settings of REST API plugin in Settings -> Reading.
 
-Cache (true/false):setting the cache property to false in jQuery will append a timestamp to the URL, so the browser won’t cache it.
-
-API-KEY: You can pass api security key in http request using heders - if REST API demand.
-
 ==Classes==
 
  RestAPI             Load's the required dependencies for this plugin.
