@@ -22,34 +22,34 @@ This plugin allows you to make a external REST API call and display data from ex
 
 == Installation == 
 
-1. Unzip the downloaded package.
-2. Upload folder include the file to the /wp-content/plugins/ directory.
-3. Activate the plugin through the Plugins menu in WordPress.
-4. Please include short-code [restapi_shortcode] in page content to display the API user list.
-5. Also you can place <?php do_action('restapi_hook'); ?> in your templates and select this template to a page in admin section.
+ 1. Unzip the downloaded package.
+ 2. Upload folder include the file to the /wp-content/plugins/ directory.
+ 3. Activate the plugin through the Plugins menu in WordPress.
+ 4. Please include short-code [restapi_shortcode] in page content to display the API user list.
+ 5. Also you can place <?php do_action('restapi_hook'); ?> in your templates and select this template to a page in admin section.
 
 ==Settings ==
 
-You can change the settings of REST API plugin in Settings -> Reading.
+ You can change the settings of REST API plugin in Settings -> Reading.
 
-Cache (true/false):setting the cache property to false in jQuery will append a timestamp to the URL, so the browser won’t cache it.
+ Cache (true/false):setting the cache property to false in jQuery will append a timestamp to the URL, so the browser wonâ€™t cache it.
 
-API-KEY: You can pass api security key in http request using heders - if REST API demand.
+ API-KEY: You can pass api security key in http request using heders - if REST API demand.
 
 ==Classes==
 
- RestAPI             Load's the required dependencies for this plugin.
- RestAPI_Loader      Register the hooks of the plugin.
- RestAPI_Activator   Define code to excute on plugin activation
- RestAPI_Deactivator Define code to excute on plugin deactivation.
- RestAPI_i18n        Defines internationalization functionality.
- RestAPI_Shortcode   Defines plugin short-code functionality.
- RestAPI_Widget      Defines plugin widget functionality.
- RestAPI_Admin       Defines all hooks for the admin area.
- RestAPI_Public      Defines all hooks for the public side of the site. 
+  1.RestAPI             Load's the required dependencies for this plugin.
+  2.RestAPI_Loader      Register the hooks of the plugin.
+  3.RestAPI_Activator   Define code to excute on plugin activation
+  4.RestAPI_Deactivator Define code to excute on plugin deactivation.
+  5.RestAPI_i18n        Defines internationalization functionality.
+  6.RestAPI_Shortcode   Defines plugin short-code functionality.
+  7.RestAPI_Widget      Defines plugin widget functionality.
+  8.RestAPI_Admin       Defines all hooks for the admin area.
+  9.RestAPI_Public      Defines all hooks for the public side of the site. 
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1. 
+  1. This screen shot description corresponds to screenshot-1. 
 
 == Changelog ==
