@@ -1,0 +1,36 @@
+{
+	"name"        : "anjanreddy/wordpress",
+	"description" : "Wordpress Rest API plugin",
+	"keywords" : [ "wordpress" ],
+    	"license" : "GPL-2.0+",
+    	"authors" : [
+	        {
+	            "name" : "anjanreddy",
+	            "email" : "anjan111reddy@gmail.com",
+	            "role" : "Full-Stack Developer"
+	        } 
+	],
+	"type"        : "project",
+	"minimum-stability": "dev",
+	"repositories": [
+		{
+			"type": "composer",
+			"url" : ""
+		},
+	        {
+	            "type": "git",
+	            "url": "https://github.com/anjansoft/wordpress-restapi-plugin"
+	        }
+	],
+	"config"      : {
+		"vendor-dir":  "anjansoft"
+	},
+	"require"     : { 
+	},
+	"require-dev" : {
+		"wordpress-restapi-plugin/admin"              : "*",
+	        "wordpress-restapi-plugin/includes"                           : "*",
+	        "wordpress-restapi-plugin/languages"                   : "*",
+	        "wordpress-restapi-plugin/public"                      : "*", 
+	} 
+}

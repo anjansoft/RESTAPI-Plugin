@@ -23,7 +23,6 @@
 
 	/**
 	 * The code that runs during plugin activation.
-	 * This action is documented in includes/class-restapi-activator.php
 	 */
 	function activate_restapi() {
 		require_once plugin_dir_path( __FILE__ ) . 'includes/class-restapi-activator.php';
@@ -32,7 +31,6 @@
 
 	/**
 	 * The code that runs during plugin deactivation.
-	 * This action is documented in includes/class-restapi-deactivator.php
 	 */
 	function deactivate_restapi() {
 		require_once plugin_dir_path( __FILE__ ) . 'includes/class-restapi-deactivator.php';
@@ -52,7 +50,7 @@
 	} 
 
 	function restapi_parse_request( &$wp ){  
-		if ( array_key_exists( 'api', $wp->query_vars ) && array_key_exists( 'api', $wp->query_vars )) { 
+		if ( array_key_exists( 'api', $wp->query_vars )) { 
 			$apipublic=new RestAPI_Public('api','1.0.0'); 
 	} 
 
