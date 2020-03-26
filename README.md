@@ -2,7 +2,7 @@
 
 Contributors: AnjanReddy 
 
-Tags: REST API, WebService, JSON Response , External webrequest. 
+Tags: Wordpress,REST API, WebService, JSON Response , External webrequest. 
 
 Requires at least: 3.0.1
 
