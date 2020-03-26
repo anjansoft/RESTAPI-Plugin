@@ -1,11 +1,17 @@
 === RestAPI===
 
-Contributors: inpsyde 
+Contributors: AnjanReddy 
+
 Tags: REST API, WebService, JSON Response , External webrequest. 
+
 Requires at least: 3.0.1
+
 Tested up to: 5.3.2
+
 Stable tag: 5.3
+
 License: GPLv2 or later
+
 License URI:  
 
 This plugin allows you to make a external REST API call and display data from external website.
@@ -17,7 +23,9 @@ This plugin allows you to make a external REST API call and display data from ex
 == Requirements ==
 
 1.WordPress version 3.0 and later.
+
 2.PHP 5.2 or later.
+
 3.Single or Multisite installation.
 
 == Installation == 
