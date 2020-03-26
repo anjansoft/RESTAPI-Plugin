@@ -26,11 +26,5 @@
 		"vendor-dir":  "anjansoft"
 	},
 	"require"     : { 
-	},
-	"require-dev" : {
-		"wordpress-restapi-plugin/admin"              : "*",
-	        "wordpress-restapi-plugin/includes"                           : "*",
-	        "wordpress-restapi-plugin/languages"                   : "*",
-	        "wordpress-restapi-plugin/public"                      : "*", 
-	} 
+	}
 }
